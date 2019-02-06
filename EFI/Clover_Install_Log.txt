@@ -1,0 +1,46 @@
+
+Clover EFI installer log - Fri Nov 16 08:22:05 CET 2018
+Installer version: v2.4k r4630 EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         500.1 GB   disk0
+   1:                        EFI EFI                     209.7 MB   disk0s1
+   2:                 Apple_APFS Container disk1         249.9 GB   disk0s2
+   3:                 Apple_APFS Container disk2         249.9 GB   disk0s3
+
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +249.9 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume Untitled                1.0 MB     disk1s1
+
+/dev/disk2 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +249.9 GB   disk2
+                                 Physical Store disk0s3
+   1:                APFS Volume Hackintosh SSD          139.1 GB   disk2s1
+   2:                APFS Volume Preboot                 44.7 MB    disk2s2
+   3:                APFS Volume Recovery                512.8 MB   disk2s3
+   4:                APFS Volume VM                      20.5 KB    disk2s4
+
+/dev/disk3 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *120.0 GB   disk3
+   1:                        EFI EFI                     209.7 MB   disk3s1
+   2:                  Apple_HFS Install macOS Mojave    16.0 GB    disk3s2
+   3:                  Apple_HFS Untitled                103.6 GB   disk3s3
+
+Target volume /Volumes/Hackintosh SSD on disk2 is APFS on physical store disk0s3
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
