@@ -14,5 +14,5 @@
  - Thermaltake Berlin 650W PSU
  - Phanteks ENTHOO EVOLV ATX
  - Operating System:
-  - macOS Mojave 10.14.x
-  - Windows 10 PRO
+    - macOS Mojave 10.14.x
+    - Windows 10 PRO
